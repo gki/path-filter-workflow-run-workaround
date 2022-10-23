@@ -25,6 +25,7 @@ jobs:
         id: filter
         with:
           base: ${{ env.BASE }}
+          ref: ${{ env.CURRENT_BRANCH }}
           filters: |
             src:
               - src/**
